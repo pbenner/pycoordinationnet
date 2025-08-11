@@ -1,0 +1,2 @@
+include coordinationnet/model_layers_mat2vec.csv
+include coordinationnet/model_layers_sbroots.npy
