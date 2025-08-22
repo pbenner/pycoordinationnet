@@ -154,7 +154,7 @@ class CoordinationFeatures(FancyString, MyMSONable):
             sites = Sites(sites=sites)
         if not isinstance(distances, Distances):
             distances = Distances(distances=distances)
-        if not isinstance(distances, CoordinationEnvironments):
+        if not isinstance(ces, CoordinationEnvironments):
             ces = CoordinationEnvironments(ces=ces)
         if not isinstance(ce_neighbors, CeNeighbors):
             ce_neighbors = CeNeighbors(ce_neighbors=ce_neighbors)
